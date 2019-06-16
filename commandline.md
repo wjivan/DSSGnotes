@@ -27,7 +27,16 @@ Shortcuts |Function
 `tree`: needs to brew install. Shows folder directory in a tree diagram.
 
 `curl`: downloads data from the internet
-- -O: outputs into a file
+- -O: outputs into a file with the original file name
+
+Example: curl
+
+*test site::https://jsonplaceholder.typicode.com/posts*
+
+`curl https://jsonplaceholder.typicode.com/posts` : gives all the output of REST API
+
+
+
 
 ### Manipulate
 `cd`: change working directory [cd .. move one level up]
